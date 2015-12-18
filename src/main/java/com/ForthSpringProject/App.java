@@ -13,8 +13,7 @@ public class App {
 		restaurant1.greetCustomer();
 
 		Restaurant restaurant2 = (Restaurant) context.getBean("restaurantBean");
+		restaurant2.setWelcomeNote("222");
 		restaurant2.greetCustomer();
-
 	}
-
 }
