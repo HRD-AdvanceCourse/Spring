@@ -11,6 +11,6 @@ public class App
        
        Restaurant restaurant = (Restaurant) context.getBean("restaurantBean");
        
-       restaurant.greetCustomer();
+       restaurant.prepareHotDrink();
     }
 }
