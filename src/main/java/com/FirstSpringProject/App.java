@@ -7,7 +7,7 @@ public class App
 {
     public static void main( String[] args )
     {
-       ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
+       ApplicationContext context = new ClassPathXmlApplicationContext("com/FirstSpringProject/SpringConfig.xml");
        
        Restaurant restaurant = (Restaurant) context.getBean("restaurantBean");
        
